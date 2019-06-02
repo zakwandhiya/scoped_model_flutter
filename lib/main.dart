@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return ScopedModel<CounterModel>(
       model: model,
       child: MaterialApp(
-        debugShowCheckedModeBanner: true,
+        debugShowCheckedModeBanner: false,
         title: 'Scoped Model Demo',
         home: HomePage(),
       ),
